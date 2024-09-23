@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+        }
+
+        nav {
+            width: 100vw;
+            height: 35vh;
+            border: 1px solid;
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+        }
+
+        .top {
+            width: 100vw;
+            height: 28vh;
+            background-color: #636057;
+            display: flex;
+            padding-left: 50px;
+            align-items: center;
+        }
+
+        .top img {
+            width: 100px;
+            height: 100px;
+        }
+        .top img:hover{
+            cursor: pointer;
+        }
+
+        .top p {
+            color: white;
+            font-size: 35px;
+            font-weight: 900;
+            margin-left: 20px;
+        }
+
+        .navitems {
+            width: 100vw;
+            height: 7vh;
+            background-color: #636057;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .itms {
+            width: 75%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .itms a {
+            text-decoration: none;
+            color: white;
+            font-size: 25px;
+            padding: 13px 60px;
+        }
+
+        .itms a:hover {
+            background-color: red;
+        }
+
+        section {
+            width: 100vw;
+            height: 60vh;
+            text-align: justify;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        section img {
+            width: 200px;
+            height: 200px;
+        }
+
+        section p {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+        footer{
+            width: 100vw;
+            height: 50vh;
+            background-color: #636057;
+            box-sizing: border-box;
+            padding: 0 100px;
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr
+
+
+        }
+        .c1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .c1 h1{
+            padding: 10px 0;
+            font-size: 25px;
+            color: white;
+        }
+        .c1 a{
+            text-decoration: none;
+            color: white;
+        }
+        .c2{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 30px;
+        }
+        .c2 h1,.c3 h1{
+            font-size: 25px;
+            color: white;
+        }
+        .c2 input{
+            width: 60%;
+            height: 50px;
+            border-radius: 10px;
+        }
+        ::placeholder{
+            text-align: center;
+        }
+        .c2 button{
+            width: auto;
+            height: auto;
+            background: transparent;
+            border: 2px solid white;
+            color: white;
+            border-radius: 30px;
+            font-size: 16px;
+            padding: 10px 20px;
+            
+        }
+        .c3{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 30px;
+        }
+        .icons{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: row;
+            gap: 20px;
+        }
+        .icons i{
+            font-size: 30px;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="top">
+           <a href="#"><img src="/1.png" alt="Monkey.D.Luffy"></a> 
+            <p>Monkey.D.Luffy</p>
+        </div>
+        <div class="navitems">
+            <div class="itms">
+                <a href="./fruit.html">Devil Fruit</a>
+                <a href="./transfomation.html">Transformation</a>
+                <a href="./haki.html">Haki</a>
+                <a href="./contact.html">Contact Us</a>
+                <a href="https://www.google.com/">Help</a>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <img src="./1.png" alt="Monkey.D.Luffy">
+        <p>Monkey D. Luffy, also known as "Straw Hat Luffy" and commonly as "Straw Hat", is the founder and captain of the increasingly infamous and powerful Straw Hat Pirates, as well as the most powerful of its top fighters. He desires to find the legendary treasure left behind by the late Gol D. Roger and thereby become the Pirate King, which would help facilitate an unknown dream of his that he has told only to Shanks, his brothers, and crew. He believes that being the Pirate King means having the most freedom in the world. So far he is very close to reaching the last island and obtaining the treasure, also known as 'One Piece', which will give him the title of the Pirate King.</p>
+    </section>
+    <footer>
+        <div class="c1">
+            <h1>USEFUL LINKS</h1>
+                <a href="">About</a>
+                <a href="">More</a>
+                <a href="">Services</a>
+                
+        </div>
+        <div class="c2">
+            <h1>NEWSLETTER</h1>
+            <input type="email" name="" id="" placeholder="Your Email Address">
+            <button>SUBSCRIBE NOW</button>
+        </div>
+        <div class="c3">
+        <h1>Social Media</h1>
+            <div class="icons"><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-tiktok"></i><i class="fa-brands fa-whatsapp"></i></div>
+        </div>
+    </footer>
+</body>
+</html>

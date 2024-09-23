@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+        }
+
+        nav {
+            width: 100vw;
+            height: 35vh;
+            border: 1px solid;
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+        }
+
+        .top {
+            width: 100vw;
+            height: 28vh;
+            background-color: #636057;
+            display: flex;
+            padding-left: 50px;
+            align-items: center;
+        }
+
+        .top img {
+            width: 100px;
+            height: 100px;
+        }
+        .top img:hover{
+            cursor: pointer;
+        }
+
+        .top p {
+            color: white;
+            font-size: 35px;
+            font-weight: 900;
+            margin-left: 20px;
+        }
+
+        .navitems {
+            width: 100vw;
+            height: 7vh;
+            background-color: #636057;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .itms {
+            width: 75%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .itms a {
+            text-decoration: none;
+            color: white;
+            font-size: 25px;
+            padding: 13px 60px;
+        }
+
+        .itms a:hover {
+            background-color: red;
+        }
+
+        section {
+            width: 100%;
+            height: auto;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            
+        }
+        section h1{
+            font-size: 30px;
+        }
+        form{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 10px;
+        }
+        section h1{
+            padding-top: 10px;
+            text-align: center;
+        }
+        section p{
+            padding-top: 10px;
+            text-align: center;
+        }
+  
+        footer{
+            width: 100vw;
+            height: 50vh;
+            background-color: #636057;
+            box-sizing: border-box;
+            padding: 0 100px;
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr
+
+
+        }
+        .c1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .c1 h1{
+            padding: 10px 0;
+            font-size: 25px;
+            color: white;
+        }
+        .c1 a{
+            text-decoration: none;
+            color: white;
+        }
+        .c2{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 30px;
+        }
+        .c2 h1,.c3 h1{
+            font-size: 25px;
+            color: white;
+        }
+        .c2 input{
+            width: 60%;
+            height: 50px;
+            border-radius: 10px;
+        }
+        ::placeholder{
+            text-align: center;
+        }
+        .c2 button{
+            width: auto;
+            height: auto;
+            background: transparent;
+            border: 2px solid white;
+            color: white;
+            border-radius: 30px;
+            font-size: 16px;
+            padding: 10px 20px;
+            
+        }
+        .c3{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 30px;
+        }
+        .icons{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: row;
+            gap: 20px;
+        }
+        .icons i{
+            font-size: 30px;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="top">
+           <a href="./index.html"><img src="/1.png" alt="Monkey.D.Luffy"></a> 
+            <p>Monkey.D.Luffy</p>
+        </div>
+        <div class="navitems">
+            <div class="itms">
+                <a href="./fruit.html">Devil Fruit</a>
+                <a href="./transfomation.html">Transformation</a>
+                <a href="./haki.html">Haki</a>
+                <a href="#">Contact Us</a>
+                <a href="https://www.google.com/">Help</a>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <h1>contact us</h1>
+        <form action="">
+            <label>First name</label><input type="text" name="" id="" placeholder="Enter your name"><br>
+            <label>Last name</label><input type="text" name="" id="" placeholder="Enter your name"><br>
+           <div> <label>Gender</label><input type="radio" name="g" id=""><label>Male</label><input type="radio" name="g" id=""><label>Female</label> <input type="radio" name="g" id=""> <label>Others</label><br></div>
+            <label>Enter E-mail</label> <input type="email" name="" id="" placeholder="Enter Your Mail"><br>
+            <label>Problem or Feedback </label><input type="text" placeholder="Problem or Feedback"><br>
+            <button>submit</button>
+        </form>
+    </section>
+    <footer>
+        <div class="c1">
+            <h1>USEFUL LINKS</h1>
+                <a href="">About</a>
+                <a href="">More</a>
+                <a href="">Services</a>
+                
+        </div>
+        <div class="c2">
+            <h1>NEWSLETTER</h1>
+            <input type="email" name="" id="" placeholder="Your Email Address">
+            <button>SUBSCRIBE NOW</button>
+        </div>
+        <div class="c3">
+        <h1>Social Media</h1>
+            <div class="icons"><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-tiktok"></i><i class="fa-brands fa-whatsapp"></i></div>
+        </div>
+    </footer>
+</body>
+</html>
